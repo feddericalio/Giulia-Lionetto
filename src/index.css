@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica+Neue:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --bg: #F8F9F8;
+  --line-color: rgba(74, 103, 65, 0.2);
+  --text-primary: #1A1A1A;
+  --accent-green: #4A6741;
+  --accent-purple: #6D4C7D;
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.blueprint-grid {
+  background-image: linear-gradient(var(--line-color) 1px, transparent 1px), linear-gradient(90deg, var(--line-color) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
